@@ -1,0 +1,66 @@
+mgorczan
+
+// lenght = lenght_word(&line[j], ENV);
+		// if ((fl = dangare_tilda(line, j, lenght)))
+		// {
+		// 	if (ft_isalpha(line[fl + 1]) || (((line[fl + 1] == '\'' ||
+		// 	line[fl + 1] == '\"') && fl + 2 < lenght)
+		// 						&& (ft_isalpha(line[fl + 2]))))
+		// 		lenght += (ft_strlen("/Users/") - 1);
+		// 	else if (get_env("HOME", ENV))
+		// 		lenght += (ft_strlen(get_env("HOME", ENV)) - 1);
+		// }
+/*if ((ARG[i] = ft_strnew(temp)) == NULL)
+			exit(1);
+		while (j2 < temp)
+		{
+			if (line[j] == '$')
+				ft_strcpy(&(ARG)[i][j2], environ_varible(line, &j, &j2, ENV));
+			if (fl && j == fl)
+			{
+				if (ft_isalpha(line[j + 1]) || ((line[fl + 1] == '\'' ||
+				line[fl + 1] == '\"') && (j + 2 < temp) && (ft_isalpha(line[j + 2]))))
+				{
+					ft_strcpy(&(ARG)[i][j2], "/Users/");
+					j2 += ft_strlen("/Users/");
+					fl = -1 * j2;
+				}
+				else
+				{
+					if (get_env("HOME", ENV) != NULL)
+					{
+						ft_strcpy(&(ARG)[i][j2], get_env("HOME", ENV));
+						j2 += ft_strlen(get_env("HOME", ENV));
+					}
+					else
+						ARG[i][j2++] = '~';
+				}
+				j++;
+			}
+			else if (line[j] == '\'')
+			{
+				j++;
+				while (j2 < temp && line[j] != '\'')
+					ARG[i][j2++] = line[j++];
+				if (line[j] == '\'')
+					++j;
+			}
+			else if (line[j] == '\"')
+			{
+				j++;
+				while (j2 < temp && line[j] != '\"')
+				{
+					if (line[j] == '$')
+						ft_strcpy(&(ARG)[i][j2],
+						environ_varible(line, &j, &j2, ENV));
+					else
+						ARG[i][j2++] = line[j++];
+				}
+				if (line[j] == '\"')
+					++j;
+			}
+			else if (j2 < temp)
+				ARG[i][j2++] = line[j++];
+		}
+		ARG[i][j2] = '\0';
+		*/
